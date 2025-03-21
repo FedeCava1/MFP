@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clonehttps://github.com/FedeCava1/MFP.git .
+RUN git clone https://github.com/FedeCava1/MFP.git .
 
 # Copy the local config.json file to the container
 
